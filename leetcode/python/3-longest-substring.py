@@ -23,7 +23,6 @@ class Solution(object):
         return max(res, len(s) - start)
             
 
-
 if __name__ == "__main__":
     string1 = "abcabcbb"
     string2 = "bbbbb"
