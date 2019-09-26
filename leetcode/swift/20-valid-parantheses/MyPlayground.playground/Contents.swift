@@ -22,8 +22,6 @@ class Solution {
     }
   }
 
-  let parantheses: [Character] = ["]", "}", ")"]
-
   func isValid(_ s: String) -> Bool {
     guard s.count % 2 != 1 else { return false }
     var stack = Stack<Character>()
